@@ -1,11 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import styled from "styled-components";
+
+const BlueBG = styled.div`
+  background: skyblue;
+`;
 
 function App() {
   return (
     <div className="App">
-      <h1>HI</h1>
+      <BlueBG>HI</BlueBG>
     </div>
   );
 }
